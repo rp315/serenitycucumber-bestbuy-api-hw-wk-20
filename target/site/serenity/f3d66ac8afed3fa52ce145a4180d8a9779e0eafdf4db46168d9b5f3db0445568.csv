@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Services test","Create and Verify the services was added to the application","SUCCESS","2021-08-04T22:22:38.436+01:00[Europe/London]","0.0","0.07"
+"Services test","Update services information and verify the updated information","SUCCESS","2021-08-04T22:22:38.509+01:00[Europe/London]","0.0","0.05"
+"Services test","Delete services information with id and verify it","SUCCESS","2021-08-04T22:22:38.558+01:00[Europe/London]","0.0","0.06"
+"Services test","This will create new services","SUCCESS","2021-08-04T22:22:38.615+01:00[Europe/London]","0.0","0.04"
+"Services test","This will get all services","SUCCESS","2021-08-04T22:22:38.658+01:00[Europe/London]","0.0","0.02"
+"Services test","This will get single services with id","SUCCESS","2021-08-04T22:22:38.676+01:00[Europe/London]","0.0","0.02"
+"Services test","This will get services with parameters","SUCCESS","2021-08-04T22:22:38.692+01:00[Europe/London]","0.0","0.02"

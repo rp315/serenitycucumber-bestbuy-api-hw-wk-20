@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing different request on resource product of best buy application","Update products and verify product updated","FAILURE","2021-08-04T22:22:39.835+01:00[Europe/London]","0.0","0.21"

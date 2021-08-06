@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="com.bestbuyapi.bestbuyapiTest.ProductsTest" skipped="0" tests="8" time="1.18" timestamp="2021-08-04T22:22:37.140+01:00[Europe/London]"><testcase classname="com.bestbuyapi.bestbuyapiTest.ProductsTest" name="This will create new product"/><testcase classname="com.bestbuyapi.bestbuyapiTest.ProductsTest" name="Create and Verify if the products was added to the application"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+Script1.run(Script1.groovy:1)&#13;
+groovy.lang.GroovyShell.evaluate(GroovyShell.java:585)&#13;
+groovy.lang.GroovyShell.evaluate(GroovyShell.java:623)&#13;
+groovy.lang.GroovyShell.evaluate(GroovyShell.java:594)&#13;
+io.restassured.internal.path.json.JSONAssertion.eval(JSONAssertion.groovy:80)&#13;
+io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:46)&#13;
+io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)&#13;
+io.restassured.path.json.JsonPath.get(JsonPath.java:202)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+com.bestbuyapi.bestbuyapiTest.ProductsTest.test002(ProductsTest.java:91)&#13;
+</system-err></testcase><testcase classname="com.bestbuyapi.bestbuyapiTest.ProductsTest" name="Update product information with patch and verify it"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuyapi.bestbuyapiTest.ProductsTest.test003(ProductsTest.java:121)&#13;
+</system-err></testcase><testcase classname="com.bestbuyapi.bestbuyapiTest.ProductsTest" name="Delete products information with id and verify it"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuyapi.bestbuyapiTest.ProductsTest.test004(ProductsTest.java:134)&#13;
+</system-err></testcase><testcase classname="com.bestbuyapi.bestbuyapiTest.ProductsTest" name="Update products information and verify the updated information"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuyapi.bestbuyapiTest.ProductsTest.test005(ProductsTest.java:104)&#13;
+</system-err></testcase><testcase classname="com.bestbuyapi.bestbuyapiTest.ProductsTest" name="This will get all products"/><testcase classname="com.bestbuyapi.bestbuyapiTest.ProductsTest" name="This will get single product with id"/><testcase classname="com.bestbuyapi.bestbuyapiTest.ProductsTest" name="This will get products with parameters"/></testsuite>

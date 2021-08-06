@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Products test","This will create new product","SUCCESS","2021-08-04T22:22:37.140+01:00[Europe/London]","0.0","0.1"
+"Products test","This will get all products","SUCCESS","2021-08-04T22:22:37.838+01:00[Europe/London]","0.0","0.22"
+"Products test","This will get single product with id","SUCCESS","2021-08-04T22:22:38.060+01:00[Europe/London]","0.0","0.05"
+"Products test","This will get products with parameters","SUCCESS","2021-08-04T22:22:38.108+01:00[Europe/London]","0.0","0.23"

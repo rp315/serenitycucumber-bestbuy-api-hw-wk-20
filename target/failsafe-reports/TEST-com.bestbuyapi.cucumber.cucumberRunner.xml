@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuyapi.cucumber.cucumberRunner" time="0.162" tests="17" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="idea.version" value="2020.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Nidhi\IdeaProjects\serenitycucumber_bestbuyapi_week20hw"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Nidhi\IdeaProjects\serenitycucumber_bestbuyapi_week20hw"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Nidhi\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.6.1\bin;C:\Program Files\nodejs\;C:\Users\Nidhi\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.6\bin;;C:\Users\Nidhi\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Nidhi"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Nidhi"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.3 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When User sends a get request, they must get back a valid status code 200" classname="Scenario: check if product resource of the best buy application can be accessed by users" time="0"/>
+  <testcase name="Scenario: check if product resource of the best buy application can be accessed by users" classname="Scenario: check if product resource of the best buy application can be accessed by users" time="0.058"/>
+  <testcase name="When I create a new product by providing the information name&quot;Choco Lava biscuits&quot;,type&quot;Cookies&quot;,price&quot;5.99&quot;,upc&quot;0413334&quot;,shipping&quot;1&quot;,description&quot;Chocolaty and Testy ; 5-pack&quot;,manufacturer&quot;CadBury&quot;,model&quot;1&quot;,url&quot;http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC&quot;,image&quot;http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg&quot;" classname="| Choco Lava biscuits | Cookies | 5.99 | 0413334 | 1 | Chocolaty and Testy ; 5-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0"/>
+  <testcase name="Then I verify that the product with name&quot;Choco Lava biscuits&quot; is created" classname="| Choco Lava biscuits | Cookies | 5.99 | 0413334 | 1 | Chocolaty and Testy ; 5-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0"/>
+  <testcase name="| Choco Lava biscuits | Cookies | 5.99 | 0413334 | 1 | Chocolaty and Testy ; 5-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" classname="| Choco Lava biscuits | Cookies | 5.99 | 0413334 | 1 | Chocolaty and Testy ; 5-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0.001"/>
+  <testcase name="When I create a new product by providing the information name&quot;Choco biscuits&quot;,type&quot;Short bread&quot;,price&quot;4.99&quot;,upc&quot;0413334&quot;,shipping&quot;2&quot;,description&quot;Chocolaty and Testy ; 4-pack&quot;,manufacturer&quot;CadBury&quot;,model&quot;1&quot;,url&quot;http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC&quot;,image&quot;http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg&quot;" classname="| Choco biscuits | Short bread | 4.99 | 0413334 | 2 | Chocolaty and Testy ; 4-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0"/>
+  <testcase name="Then I verify that the product with name&quot;Choco biscuits&quot; is created" classname="| Choco biscuits | Short bread | 4.99 | 0413334 | 2 | Chocolaty and Testy ; 4-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0"/>
+  <testcase name="| Choco biscuits | Short bread | 4.99 | 0413334 | 2 | Chocolaty and Testy ; 4-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" classname="| Choco biscuits | Short bread | 4.99 | 0413334 | 2 | Chocolaty and Testy ; 4-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0.026"/>
+  <testcase name="When I update a product by providing the information id&quot;43900&quot;,name&quot;Choco Lava biscuits&quot;,type&quot;Cookies&quot;,price&quot;5.99&quot;,upc&quot;0413334&quot;,shipping&quot;1&quot;,description&quot;Chocolaty and Testy ; 5-pack&quot;,manufacturer&quot;CadBury&quot;,model&quot;1&quot;,url&quot;http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC&quot;,image&quot;http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg&quot;" classname="| 43900 | Choco Lava biscuits | Cookies | 5.99 | 0413334 | 1 | Chocolaty and Testy ; 5-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0"/>
+  <testcase name="Then I verify that the product with name&quot;Choco Lava biscuits&quot; is updated" classname="| 43900 | Choco Lava biscuits | Cookies | 5.99 | 0413334 | 1 | Chocolaty and Testy ; 5-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0.002">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor189.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuyapi.cucumber.steps.ProductStepdefs.iVerifyThatTheProductWithNameIsUpdated(ProductStepdefs.java:74)
+	at ✽.Then I verify that the product with name"Choco Lava biscuits" is updated(src/test/java/resources/feature/product.feature:16)
+]]></failure>
+  </testcase>
+  <testcase name="| 43900 | Choco Lava biscuits | Cookies | 5.99 | 0413334 | 1 | Chocolaty and Testy ; 5-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" classname="| 43900 | Choco Lava biscuits | Cookies | 5.99 | 0413334 | 1 | Chocolaty and Testy ; 5-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0.002">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor189.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuyapi.cucumber.steps.ProductStepdefs.iVerifyThatTheProductWithNameIsUpdated(ProductStepdefs.java:74)
+	at ✽.Then I verify that the product with name"Choco Lava biscuits" is updated(src/test/java/resources/feature/product.feature:16)
+]]></failure>
+  </testcase>
+  <testcase name="When I update a product by providing the information id&quot;48530&quot;,name&quot;Choco biscuits&quot;,type&quot;Short bread&quot;,price&quot;4.99&quot;,upc&quot;0413334&quot;,shipping&quot;2&quot;,description&quot;Chocolaty and Testy ; 4-pack&quot;,manufacturer&quot;CadBury&quot;,model&quot;1&quot;,url&quot;http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC&quot;,image&quot;http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg&quot;" classname="| 48530 | Choco biscuits | Short bread | 4.99 | 0413334 | 2 | Chocolaty and Testy ; 4-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0"/>
+  <testcase name="Then I verify that the product with name&quot;Choco biscuits&quot; is updated" classname="| 48530 | Choco biscuits | Short bread | 4.99 | 0413334 | 2 | Chocolaty and Testy ; 4-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0"/>
+  <testcase name="| 48530 | Choco biscuits | Short bread | 4.99 | 0413334 | 2 | Chocolaty and Testy ; 4-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" classname="| 48530 | Choco biscuits | Short bread | 4.99 | 0413334 | 2 | Chocolaty and Testy ; 4-pack | CadBury | 1 | http://www.bestbuy.com/site/macvities biscuit-4-pack/43900.p?id=1059384074145&amp;skuId=43900&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg |" time="0.035"/>
+  <testcase name="When I delete a product by providing the information id 127687" classname="Scenario: Delete product and verify product deleted" time="0"/>
+  <testcase name="Then I verify that the product with id 127687 is deleted" classname="Scenario: Delete product and verify product deleted" time="0"/>
+  <testcase name="Scenario: Delete product and verify product deleted" classname="Scenario: Delete product and verify product deleted" time="0.038"/>
+</testsuite>

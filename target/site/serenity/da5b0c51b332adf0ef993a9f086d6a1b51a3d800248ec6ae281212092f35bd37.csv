@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Products test","Update product information with patch and verify it","FAILURE","2021-08-04T22:22:37.744+01:00[Europe/London]","0.0","0.04"
+"Products test","Delete products information with id and verify it","FAILURE","2021-08-04T22:22:37.783+01:00[Europe/London]","0.0","0.02"
+"Products test","Update products information and verify the updated information","FAILURE","2021-08-04T22:22:37.802+01:00[Europe/London]","0.0","0.03"
+"Testing different request on resource product of best buy application","Update products and verify product updated","FAILURE","2021-08-04T22:22:39.835+01:00[Europe/London]","0.0","0.21"
